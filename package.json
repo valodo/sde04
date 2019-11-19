@@ -1,0 +1,25 @@
+{
+  "name": "testcicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadebulba/testCICD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadebulba/testCICD/issues"
+  },
+  "homepage": "https://github.com/dadebulba/testCICD#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "prom-client": "^11.5.3"
+  }
+}
